@@ -44,9 +44,9 @@ class Token():
   
     def __init__(self, curr):
 
-        self.tag = 'None'
-        self.role = 'None'
-        self.expression_index = 'None'
-        self.line = 'None'
+        self.tag = None
+        self.role = None
+        self.expression_index = None
+        self.line = None
         self.value = curr
         self.index = Token.index
