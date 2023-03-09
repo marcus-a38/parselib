@@ -1,5 +1,5 @@
-#ifndef LEXER_H
-#define LEXER_H
+#ifndef DEFINITIONS_H
+#define DEFINITIONS_H
 
 // Identifiers
 #define IDENTIFIER "IDENTIFIER"
