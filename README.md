@@ -52,7 +52,7 @@ ___
 
 Using a regular expression, the lexer will split raw input into tokens. These tokens will be assigned a primitive 'value' and 'type.' The types will be determined through comparison using a large set of predefined & user-defined keywords, operators, etc. 
 
-As this chunk of the code requires a time complexity of O(n), we'll be processing it in C. This is to avoid performance issues that will get progressively worse in Python versus C. After preprocessing the tokens, we will pass them to the parser module to add defined behavior and an execution order for the interpreter (via ASTs)
+As this chunk of the code is mainly iterative, we'll be processing it in C. This is to avoid performance issues that will get progressively worse in Python versus C. After preprocessing the tokens, we will pass them to the parser module to add defined behavior and an execution order for the interpreter (via ASTs)
 
 ___
 
